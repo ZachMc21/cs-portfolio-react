@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "esnext",
+    "types": [
+      "node",
+      "@wdio/globals/types",
+      "wdio-intercept-service",
+      "@wdio/mocha-framework"
+    ],
+    "target": "es2022",
+    "lib": ["esnext"]
+  },
+  "include": ["e2e/**/*.ts"],
+  "exclude": ["node_modules"]
+}

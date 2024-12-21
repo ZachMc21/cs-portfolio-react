@@ -1,0 +1,15 @@
+/* FOOTER */
+footer {
+  position: sticky;
+  margin: 0;
+  padding: 1vw 0;
+  width: 100%;
+  background-color: #000000;
+}
+
+footer p {
+  color: rgb(203, 239, 252);
+  font-size: 0.75rem;
+  font-style: italic;
+  text-align: center;
+}/*# sourceMappingURL=Footer.css.map */

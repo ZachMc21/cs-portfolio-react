@@ -1,10 +1,17 @@
 import React from 'react';
-import Title from './components/Title';
+import TitleBanner from './components/TitleBanner';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
     <div>
-      <Title title="Zach Magloughlin" />
+      <TitleBanner 
+        title="Zach Magloughlin" 
+        email="Showcasing my work and skills"
+        links="#3b5998"        
+      />
+      
+      <Footer />
     </div>
   );
 };

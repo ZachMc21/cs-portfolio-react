@@ -1,5 +1,5 @@
 import React from 'react';
-import './Title.css';
+import './TitleBanner.scss';
 
 interface TitleBannerProps {
   title: string;

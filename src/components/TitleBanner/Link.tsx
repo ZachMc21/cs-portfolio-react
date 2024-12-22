@@ -1,19 +1,16 @@
 import React from 'react';
-import LinkIcon from './LinkIcon';
 
-interface EmailProps {
+interface LinkProps {
     url: string;
     displayText: string;
-    iconPath?: string;
 }
 
-const TitleText: React.FC<EmailProps> = ({ url, displayText, iconPath }) => {
+const Link: React.FC<LinkProps> = ({ url, displayText }) => {
     return (
         <div className="link">
             <a href={url}>{displayText} </a>;
-            {iconPath && <LinkIcon path={[iconPath, displayText]} />}
         </div> 
     )
 };
 
-export default TitleText;
+export default Link;

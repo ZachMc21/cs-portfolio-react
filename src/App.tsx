@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 const App: React.FC = () => {
 
   	return (
-		<div>
+		<div id="app">
 			<div id="title-banner">
 				<h1>Zach Magloughlin</h1>
 				<a href='magloughlin.zach@gmail.com'>magloughlin.zach@gmail.com</a>
@@ -83,14 +83,35 @@ const App: React.FC = () => {
 
 			<div id="projects-container">
 				<div id="projects-links">
-					{/*
 					<ProjectMenuLink text="Software Engineering" />
+					{/*
 					<ProjectMenuLink text="Web Development" />
 					<ProjectMenuLink text="UI &amp; UX" />
 					<ProjectMenuLink text="Data Analysis &amp; Visualization" />
 					<ProjectMenuLink text="Databases" />
 					<ProjectMenuLink text="Game Development" />
 					 */}
+				</div>
+				<div id="projects-menu-content">
+					{/*Each div has a list of skills, a list of takeaways, and a Gallery section for screenshots*/}
+					<div className="projects-menu-content" id="Software Engineering">
+					
+					</div>
+					<div className="projects-menu-content" id="Web Development">
+
+					</div>
+					<div className="projects-menu-content" id="UI &amp; UX">
+
+					</div>
+					<div className="projects-menu-content" id="Data Analysis &amp; Visualization">
+
+					</div>
+					<div className="projects-menu-content" id="Databases">
+
+					</div>
+					<div className="projects-menu-content" id="Game Developmentf">
+
+					</div>
 				</div>
 			</div>
 

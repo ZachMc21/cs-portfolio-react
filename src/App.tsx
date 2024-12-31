@@ -94,8 +94,10 @@ const App: React.FC = () => {
 				</div>
 				<div id="projects-menu-content">
 					{/*Each div has a list of skills, a list of takeaways, and a Gallery section for screenshots*/}
+					{/* Gallery package installed, see https://codesweetly.com/react-image-grid-gallery/#:~:text=How%20to%20Add%20Image%20Grid%20Gallery%20to%20React,...%207%20Step%207%3A%20Run%20the%20Application%20 */}
 					<div className="projects-menu-content" id="Software Engineering">
 					
+				
 					</div>
 					<div className="projects-menu-content" id="Web Development">
 

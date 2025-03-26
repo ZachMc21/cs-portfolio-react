@@ -4,6 +4,10 @@ import LinkIcon from './components/TitleBanner/LinkIcon';
 import ProjectMenuLink from './components/ProjectMenuLink';
 import Footer from './components/Footer';
 
+import './App.scss';
+import './components/TitleBanner/TitleBox.scss';
+
+
 const App: React.FC = () => {
 
   	return (

@@ -1,0 +1,25 @@
+@use "../../variables" as v;
+
+div#title-banner {
+    background-color: v.$gray-blue;
+    padding: 2vw;
+    text-align: center;
+    border-radius: 1vw;
+}
+
+div#title-banner h1 {
+    color: v.$navy-blue;
+}
+div#profile-links {
+
+}
+div.profile-links {
+    
+}
+
+
+
+div#blurb {
+    padding: 1vw;
+    color: v.$navy-blue;
+}

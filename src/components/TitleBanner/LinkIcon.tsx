@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface LinkProps {
-    path: string;
+    path: string
     alt?: string
 }
 

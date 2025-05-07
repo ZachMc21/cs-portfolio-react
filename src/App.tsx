@@ -2,7 +2,7 @@ import React from 'react';
 import Link from './components/TitleBanner/Link';
 import LinkIcon from './components/TitleBanner/LinkIcon';
 import ProjectMenuLink from './components/ProjectMenuLink';
-import Footer from './components/Footer';
+import Footer from './components/Footer/Footer';
 
 import './App.scss';
 import './components/TitleBanner/TitleBox.scss';
@@ -16,15 +16,15 @@ const App: React.FC = () => {
 				<h1>Zach Magloughlin</h1>
 				<a href='magloughlin.zach@gmail.com'>magloughlin.zach@gmail.com</a>
 				<div id="profile-links">
-					<div class="profile-links" id="LinkedIn">
+					<div className="profile-links" id="LinkedIn">
 						<LinkIcon path="./components/icons/linkedin.png" alt="" />
 						<Link url="https://www.linkedin.com/in/zach-magloughlin" displayText="LinkedIn" />
 					</div>
-					<div class="profile-links" id="GitHub">
+					<div className="profile-links" id="GitHub">
 						<LinkIcon path="./components/icons/github.png" alt="" />
 						<Link url="https://github.com/ZachMc21" displayText="GitHub" />
 					</div>
-					<div class="profile-links" id="HackerRank">
+					<div className="profile-links" id="HackerRank">
 						<LinkIcon path="./components/icons/hackerrank.png" alt="" />
 						<Link url="https://www.hackerrank.com/profile/magloughlin_zach" displayText="HackerRank" />
 					</div>
@@ -36,15 +36,15 @@ const App: React.FC = () => {
 			</div> {/* End title-banner */}
 
 			<div id="skills-list">
-				<div class="skill-column" id="swe_skills">
-					<ul class="nested-0">
+				<div className="skill-column" id="swe_skills">
+					<ul className="nested-0">
 						<li> Java </li>
-							<ul class="nested-1">
+							<ul className="nested-1">
 								<li> JUnit </li>
 							</ul>
 						<li> C++ </li>
 						<li> Python </li> 
-							<ul class="nested-1">
+							<ul className="nested-1">
 								<li> Jupyter notebooks </li>
 								<li> Matplotlib </li>
 								<li> Pandas </li>
@@ -52,14 +52,14 @@ const App: React.FC = () => {
 					</ul>
 				</div>
 
-				<div class="skill-column" id="web-skills">
-					<ul class="nested-0">
+				<div className="skill-column" id="web-skills">
+					<ul className="nested-0">
 						<li> HTML5 </li>
 						<li> CSS3 </li>
 						<li> JavaScript </li>
 						<li> TypeScript, React </li>
 						<li> Relational databases </li>       
-							<ul class="nested-1">
+							<ul className="nested-1">
 								<li> SQL </li>
 								<li> PostgreSQL </li>
 								<li> SQLite </li>
@@ -67,16 +67,16 @@ const App: React.FC = () => {
 					</ul>
 				</div>
 				
-				<div class="skill-column" id="other_skills">
-					<ul class="nested-0">
+				<div className="skill-column" id="other_skills">
+					<ul className="nested-0">
 						<li> Git and GitHub </li>
 						<li> Scrum software </li>
-							<ul class="nested-1">
+							<ul className="nested-1">
 								<li> Jira </li>
 								<li> Notion </li>
 							</ul>
 						<li> IDEs </li>
-							<ul class="nested-1">
+							<ul className="nested-1">
 								<li> Visual Studio </li>
 								<li> Visual Studio Code </li>
 								<li> Eclipse </li>

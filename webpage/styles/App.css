@@ -1,4 +1,8 @@
 div#app {
   background-color: #091d3a;
   color: rgb(203, 239, 252);
+}
+
+div#projects-container {
+  height: 50;
 }/*# sourceMappingURL=App.css.map */

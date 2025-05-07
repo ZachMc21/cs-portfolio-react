@@ -8,7 +8,7 @@ interface LinkProps {
 const Link: React.FC<LinkProps> = ({ url, displayText }) => {
     return (
         <div className="link">
-            <a href={url}>{displayText} </a>;
+            <a href={url}>{displayText}</a>
         </div> 
     )
 };

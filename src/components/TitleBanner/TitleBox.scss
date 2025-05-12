@@ -4,22 +4,32 @@ div#title-banner {
     background-color: v.$gray-blue;
     padding: 2vw;
     text-align: center;
-    border-radius: 1vw;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2vw;
 }
 
 div#title-banner h1 {
     color: v.$navy-blue;
+    margin-bottom: 0;
 }
-div#profile-links {
 
+div#profile-links {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 2vw auto;
 }
 div.profile-links {
-    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+div.profile-links:after {
+    display: block;
+    clear: both;
 }
 
-
-
 div#blurb {
-    padding: 1vw;
     color: v.$navy-blue;
 }

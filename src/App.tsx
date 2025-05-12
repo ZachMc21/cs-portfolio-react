@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from './components/TitleBanner/Link';
 import LinkIcon from './components/TitleBanner/LinkIcon';
-import ProjectMenuLink from './components/ProjectMenuLink';
+import ProjectMenuLink from './components/ProjectMenuLink/ProjectMenuLink';
 import Footer from './components/Footer/Footer';
 
 import './App.scss';
@@ -13,26 +13,30 @@ const App: React.FC = () => {
   	return (
 		<div id="app">
 			<div id="title-banner">
+
 				<h1>Zach Magloughlin</h1>
 				<a href='magloughlin.zach@gmail.com'>magloughlin.zach@gmail.com</a>
+
 				<div id="profile-links">
 					<div className="profile-links" id="LinkedIn">
-						<LinkIcon path="./components/icons/linkedin.png" alt="" />
+						<LinkIcon path="src/images/linkedin.png" alt="The LinkedIn logo." />
 						<Link url="https://www.linkedin.com/in/zach-magloughlin" displayText="LinkedIn" />
 					</div>
 					<div className="profile-links" id="GitHub">
-						<LinkIcon path="./components/icons/github.png" alt="" />
+						<LinkIcon path="././images/github.png" alt="The GitHub logo." />
 						<Link url="https://github.com/ZachMc21" displayText="GitHub" />
 					</div>
 					<div className="profile-links" id="HackerRank">
-						<LinkIcon path="./components/icons/hackerrank.png" alt="" />
+						<LinkIcon path="./././images/hackerrank.png" alt="The HackerRank logo." />
 						<Link url="https://www.hackerrank.com/profile/magloughlin_zach" displayText="HackerRank" />
 					</div>
 				</div> {/* End profile-links */}
+
 				<div id="blurb">
-					<p>Detail-oriented college senior with experience across subfields of computer science.</p>
+					<p>Detail-oriented recent graduate with experience across subfields of computer science.</p>
 					<p>Passionate about continuous learning and solving problems that affect everyday life.</p>
 				</div>
+
 			</div> {/* End title-banner */}
 
 			<div id="skills-list">
@@ -87,7 +91,7 @@ const App: React.FC = () => {
 
 			<div id="projects-container">
 				<div id="projects-links">
-					<ProjectMenuLink text="Software Engineering" />
+					<ProjectMenuLink className="project-menu-link" text="Software Engineering" />
 					{/*
 					<ProjectMenuLink text="Web Development" />
 					<ProjectMenuLink text="UI &amp; UX" />
@@ -99,29 +103,32 @@ const App: React.FC = () => {
 				<div id="projects-menu-content">
 					{/*Each div has a list of skills, a list of takeaways, and a Gallery section for screenshots*/}
 					{/* Gallery package installed, see https://codesweetly.com/react-image-grid-gallery/#:~:text=How%20to%20Add%20Image%20Grid%20Gallery%20to%20React,...%207%20Step%207%3A%20Run%20the%20Application%20 */}
-					<div className="projects-menu-content" id="Software Engineering">
-					
+					<div className="projects-menu-content" id="webdev">
+						<h1>Web Development</h1>
+
+					</div>
+					<div className="projects-menu-content" id="swe">
+					 	<h1>Software Engineering</h1>
 				
 					</div>
-					<div className="projects-menu-content" id="Web Development">
+					<div className="projects-menu-content" id="ui-ux">
+						<h1>UI &amp; UX</h1>
 
 					</div>
-					<div className="projects-menu-content" id="UI &amp; UX">
+					<div className="projects-menu-content" id="data">
+						<h1>Data Analysis &amp; Visualization</h1>
 
 					</div>
-					<div className="projects-menu-content" id="Data Analysis &amp; Visualization">
+					<div className="projects-menu-content" id="databases">
+						<h1>Databases</h1>
 
 					</div>
-					<div className="projects-menu-content" id="Databases">
-
-					</div>
-					<div className="projects-menu-content" id="Game Developmentf">
+					<div className="projects-menu-content" id="gamedev">
+						<h1>Game Development</h1>
 
 					</div>
 				</div>
-			</div>
-
-			<Footer />
+			</div> {/* End projects container */}
 		</div>
   	);
 };

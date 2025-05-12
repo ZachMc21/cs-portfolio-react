@@ -2,14 +2,34 @@ div#title-banner {
   background-color: rgb(169, 199, 210);
   padding: 2vw;
   text-align: center;
-  border-radius: 1vw;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2vw;
 }
 
 div#title-banner h1 {
   color: #091d3a;
+  margin-bottom: 0;
+}
+
+div#profile-links {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 2vw auto;
+}
+
+div.profile-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+div.profile-links:after {
+  display: block;
+  clear: both;
 }
 
 div#blurb {
-  padding: 1vw;
   color: #091d3a;
 }/*# sourceMappingURL=TitleBox.css.map */

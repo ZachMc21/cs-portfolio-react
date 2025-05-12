@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"ProjectMenuLink.css"}
+{"version":3,"sourceRoot":"","sources":["../../src/components/ProjectMenuLink/ProjectMenuLink.scss"],"names":[],"mappings":"AAEA;EACI;EACA;;;AAGJ;EACI","file":"ProjectMenuLink.css"}

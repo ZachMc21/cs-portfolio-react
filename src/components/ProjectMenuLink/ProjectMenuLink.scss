@@ -1,0 +1,10 @@
+@use "../../variables" as v;
+
+div#project-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-menu-link {
+    width: 20%;
+}

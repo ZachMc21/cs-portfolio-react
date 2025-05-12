@@ -23,22 +23,38 @@ div#title-banner p {
   margin: 0 auto;
 }
 
-div#profile-links {
+div.profile-links-container {
   display: flex;
   justify-content: center;
-  width: 80%;
-  margin: 2vw auto 3vw auto;
+  width: 50%;
+  margin-bottom: 2vw;
 }
 
 div.profile-links {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  font-size: 1.25em;
 }
 
-div.profile-links:after {
+div.profile-links-container#primary {
+  margin: 2vw auto 1vw auto;
+}
+
+div.profile-links#github, div.profile-links#linkedin {
+  width: 40%;
+  font-size: 1.5em;
+}
+
+div.profile-links-container#secondary {
+  margin: 0 auto 2vw auto;
+}
+
+div.profile-links#hackerrank, div.profile-links#codepip {
+  width: 20%;
+  font-size: 0.9em;
+}
+
+div.profile-links-container:after {
   display: block;
   clear: both;
 }

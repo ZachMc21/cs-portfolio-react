@@ -10,6 +10,7 @@ import './components/TitleBanner/TitleBox.scss';
 import gitHubLogo from './images/github.png';
 import linkedInLogo from './images/linkedin.png';
 import hackerRankLogo from './images/hackerrank.png';
+import codePipLogo from './images/codepip.png';
 
 
 const App: React.FC = () => {
@@ -22,20 +23,27 @@ const App: React.FC = () => {
 				<a href='magloughlin.zach@gmail.com'>magloughlin.zach@gmail.com</a>
 				<p>(For phone number, see resume.)</p>
 
-				<div id="profile-links">
-					<div className="profile-links" id="LinkedIn">
-						<LinkIcon path={linkedInLogo} alt="The LinkedIn logo." />
-						<Link url="https://www.linkedin.com/in/zach-magloughlin" displayText="LinkedIn" />
-					</div>
-					<div className="profile-links" id="GitHub">
-						<LinkIcon path={gitHubLogo} alt="The GitHub logo." />
-						<Link url="https://github.com/ZachMc21" displayText="GitHub" />
-					</div>
-					<div className="profile-links" id="HackerRank">
-						<LinkIcon path={hackerRankLogo} alt="The HackerRank logo." />
-						<Link url="https://www.hackerrank.com/profile/magloughlin_zach" displayText="HackerRank" />
-					</div>
-				</div> {/* End profile-links */}
+                <div className="profile-links-container" id="primary">
+                    <div className="profile-links" id="linkedin">
+                        <LinkIcon path={linkedInLogo} alt="The LinkedIn logo." />
+                        <Link url="https://www.linkedin.com/in/zach-magloughlin" displayText="LinkedIn" />
+                    </div>
+                    <div className="profile-links" id="github">
+                        <LinkIcon path={gitHubLogo} alt="The GitHub logo." />
+                        <Link url="https://github.com/ZachMc21" displayText="GitHub" />
+                    </div>
+                </div>
+                <div className="profile-links-container" id="secondary">
+                    <div className="profile-links" id="hackerrank">
+                        <LinkIcon path={hackerRankLogo} alt="The HackerRank logo." />
+                        <Link url="https://www.hackerrank.com/profile/magloughlin_zach" displayText="HackerRank" />
+                    </div>
+                    <div className="profile-links" id="codepip">
+                        <LinkIcon path={codePipLogo} alt="The CodePip logo." />
+                        <Link url="https://codepip.com/user/ZachMc21/" displayText="CodePip" />
+                    </div>
+                </div>
+                {/* End profile-links */}
 
 				<div id="blurb">
 					<p>Detail-oriented recent graduate with experience across subfields of computer science.</p>

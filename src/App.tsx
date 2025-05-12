@@ -7,6 +7,10 @@ import Footer from './components/Footer/Footer';
 import './App.scss';
 import './components/TitleBanner/TitleBox.scss';
 
+import gitHubLogo from './images/github.png';
+import linkedInLogo from './images/linkedin.png';
+import hackerRankLogo from './images/hackerrank.png';
+
 
 const App: React.FC = () => {
 
@@ -19,15 +23,15 @@ const App: React.FC = () => {
 
 				<div id="profile-links">
 					<div className="profile-links" id="LinkedIn">
-						<LinkIcon path="src/images/linkedin.png" alt="The LinkedIn logo." />
+						<LinkIcon path={linkedInLogo} alt="The LinkedIn logo." />
 						<Link url="https://www.linkedin.com/in/zach-magloughlin" displayText="LinkedIn" />
 					</div>
 					<div className="profile-links" id="GitHub">
-						<LinkIcon path="././images/github.png" alt="The GitHub logo." />
+						<LinkIcon path={gitHubLogo} alt="The GitHub logo." />
 						<Link url="https://github.com/ZachMc21" displayText="GitHub" />
 					</div>
 					<div className="profile-links" id="HackerRank">
-						<LinkIcon path="./././images/hackerrank.png" alt="The HackerRank logo." />
+						<LinkIcon path={hackerRankLogo} alt="The HackerRank logo." />
 						<Link url="https://www.hackerrank.com/profile/magloughlin_zach" displayText="HackerRank" />
 					</div>
 				</div> {/* End profile-links */}

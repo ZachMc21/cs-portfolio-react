@@ -4,3 +4,14 @@ div#app {
   background-color: v.$navy-blue;
   color: v.$light-blue;
 }
+
+a {
+    text-decoration: none;
+    color: v.$royal-blue;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: v.$purple;
+}

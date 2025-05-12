@@ -1,4 +1,17 @@
 div#app {
   background-color: #091d3a;
   color: rgb(203, 239, 252);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(49, 55, 165);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(101, 49, 165);
 }/*# sourceMappingURL=App.css.map */

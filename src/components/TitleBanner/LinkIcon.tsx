@@ -7,7 +7,7 @@ interface LinkProps {
 
 const TitleText: React.FC<LinkProps> = ({ path, alt }) => {
     return (
-        <img src={path} alt={alt} />
+        <img className="linkicon" src={path} alt={alt} />
     )
 };
 

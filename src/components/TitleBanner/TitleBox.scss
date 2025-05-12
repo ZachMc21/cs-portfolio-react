@@ -4,14 +4,19 @@ div#title-banner {
     background-color: v.$gray-blue;
     padding: 2vw;
     text-align: center;
-    width: 90%;
+    width: 80vw;
     margin: 0 auto;
-    margin-top: 2vw;
+    margin-top: 5vw;
 }
 
 div#title-banner h1 {
     color: v.$navy-blue;
+    font-size: 3em;
     margin-bottom: 0;
+}
+
+div#title-banner a {
+    font-size: 1.25em;
 }
 
 div#profile-links {
@@ -23,13 +28,25 @@ div#profile-links {
 div.profile-links {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
+    font-size: 1.25em;
 }
 div.profile-links:after {
     display: block;
     clear: both;
 }
 
+img.linkicon {
+    height: 1.25em;
+    padding-right: 0.25em;
+    width: auto;
+}
+
 div#blurb {
     color: v.$navy-blue;
+}
+div#blurb p {
+    font-size: 1.25vw;
+    margin: 1vw auto;
 }

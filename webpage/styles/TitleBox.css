@@ -17,11 +17,17 @@ div#title-banner a {
   font-size: 1.25em;
 }
 
+div#title-banner p {
+  font-size: 1.25em;
+  color: #091d3a;
+  margin: 0 auto;
+}
+
 div#profile-links {
   display: flex;
   justify-content: center;
   width: 80%;
-  margin: 2vw auto;
+  margin: 2vw auto 3vw auto;
 }
 
 div.profile-links {

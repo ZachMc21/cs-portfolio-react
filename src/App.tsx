@@ -20,6 +20,7 @@ const App: React.FC = () => {
 
 				<h1>Zach Magloughlin</h1>
 				<a href='magloughlin.zach@gmail.com'>magloughlin.zach@gmail.com</a>
+				<p>(For phone number, see resume.)</p>
 
 				<div id="profile-links">
 					<div className="profile-links" id="LinkedIn">
